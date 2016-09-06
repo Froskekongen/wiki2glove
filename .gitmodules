@@ -1,3 +1,6 @@
 [submodule "wikiextractor"]
 	path = wikiextractor
 	url = https://github.com/attardi/wikiextractor.git
+[submodule "GloVe"]
+	path = GloVe
+	url = https://github.com/stanfordnlp/GloVe.git
