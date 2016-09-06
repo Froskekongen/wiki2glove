@@ -3,7 +3,7 @@ import sys
 infile=sys.argv[1]
 outfile=sys.argv[2]
 
-replacesigns=[',','.','?','!',':',';','\n','(',')']
+replacesigns=[',','.','?','!',':',';','\n','(',')','«','»','-']
 def repsigns(txt):
     for rs in replacesigns:
         txt=txt.replace(rs,' '+rs+' ')
